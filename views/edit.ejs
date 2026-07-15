@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <title>Document</title>
+</head>
+<body>
+     <a class="a" href="/read">User Data</a>
+    <h2 style="color: white; margin: 10px;">Update User</h2>
+    <div class="container">
+        <form action="/update/<%=edit._id%>" method="post">
+            <input class="inputs"  type="text" value="<%=edit.name%>"  name="name" >
+            <input class="inputs" type="text" value="<%=edit.email%>"  name="email" >
+            <input class="inputs" type="text" value="<%=edit.image%>"  name="image" >
+            <input class="btn" type="submit" value="Update User">
+        </form>
+    </div>
+</body>
+</html>

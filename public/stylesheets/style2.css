@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Geomini:wght@200..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(7, 2, 2, 0.881);
+    font-family: Geomini;
+    margin: 5vh 3vw;
+}
+.a{
+    color: rgb(90, 97, 105);
+}
+.container{
+    width: 92vw;
+    min-height: 40vh;
+    display: flex;
+    gap: 5vw;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: rgb(69, 71, 73);;
+    height: 40vh;
+    min-width: 17vw;
+     position: relative;
+}
+.img{
+   width: 17vw;
+    height: 25vh;
+    padding: 10px;
+    object-fit: cover;
+    object-position: top;
+}
+.chng{
+    display: flex;
+    gap: 2vw;
+    position: absolute;
+    bottom: 8px;
+    left: 10px;
+}
+.ab{
+    color: rgb(0, 128, 255);
+}
+.ac{
+    color: rgba(255, 20, 20, 0.872);
+}
+.info{
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+   
+}
